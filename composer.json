@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Bookify\\": "/",
+            "Bookify\\Models\\": "Models/",
+            "Bookify\\Controllers\\": "Controllers/",
+            "Bookify\\Controllers\\Admin\\": "Controllers/Admin/",
+            "Bookify\\Controllers\\REST\\": "Controllers/REST/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}

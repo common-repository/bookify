@@ -1,0 +1,262 @@
+#bookify-frontend .bookify-tab-panel-inner-wrapper {
+    min-height: 510px;
+    max-height: 510px;
+    background: #f4f6f9;
+    border: 1px solid #D9D9D9;
+    border-radius: 16px;
+}
+
+#bookify-frontend .bookify-tab-panel-body::-webkit-scrollbar,
+#bookify-frontend .MuiDayCalendar-root .MuiPickersSlideTransition-root::-webkit-scrollbar {
+    width: 3px;
+}
+
+#bookify-frontend .bookify-tab-panel-body::-webkit-scrollbar-track,
+#bookify-frontend .MuiDayCalendar-root .MuiPickersSlideTransition-root::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+#bookify-frontend .bookify-tab-panel-body::-webkit-scrollbar-thumb,
+#bookify-frontend .MuiDayCalendar-root .MuiPickersSlideTransition-root::-webkit-scrollbar-thumb {
+    background: #7A7A7A; 
+    border-radius: 15px;
+}
+
+#bookify-frontend .bookify-tab-panel-body::-webkit-scrollbar-thumb:hover,
+#bookify-frontend .MuiDayCalendar-root .MuiPickersSlideTransition-root::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+#bookify-frontend .bookify-tab-panel-header {
+    padding: 15px 18px;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+#bookify-frontend .bookify-tab-panel-body {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 18px;
+}
+
+#bookify-frontend .bookify-tab-panel-footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#bookify-frontend .bookify-btn-primary,
+#bookify-frontend .bookify-btn-secondary {
+    color: #ffffff;
+    padding: 10px 18px 10px 18px;
+    border-radius: 63px;
+    border: none;
+    cursor: pointer;
+    box-shadow: none;
+    font-size: 13.3333px;
+    line-height: normal;
+    text-transform: none;
+}
+
+#bookify-frontend .bookify-btn-primary {
+    background: #036666;
+}
+
+.bookify-btn-secondary {
+    background: #BBBBBB;
+}
+
+#bookify-frontend .bookify-btn-primary.Mui-disabled {
+    color: rgba(0, 0, 0, 0.26);
+    background: rgba(0, 0, 0, 0.12);
+} 
+
+#bookify-frontend .MuiDateCalendar-root {
+    width: 100%;
+    height: 332px;
+    max-height: 332px;
+}
+
+#bookify-frontend .MuiDayCalendarSkeleton-daySkeleton	{
+    width: 45px;
+    margin: 3px 5px;
+    border-radius: 5px;
+}
+
+#bookify-frontend .MuiPickersCalendarHeader-root {
+    padding: 8px 0 6px 0;
+    height: auto;
+    min-height: auto;
+    position: relative;
+    justify-content: center;
+    margin-top: 15px;
+    background-color: #FAFAFA;
+    border: 1px solid #EBF0ED;
+}
+
+#bookify-frontend .MuiPickersArrowSwitcher-root .MuiPickersArrowSwitcher-button {
+    border: 0;
+    height: 35px;
+    position: absolute;
+    top: 1px;
+    border-radius: 8px;
+}
+
+#bookify-frontend .MuiPickersArrowSwitcher-root .MuiPickersArrowSwitcher-button:first-child {
+    left: 20px;
+}
+
+#bookify-frontend .MuiPickersArrowSwitcher-root .MuiPickersArrowSwitcher-button:last-child {
+    right: 20px;
+}
+
+#bookify-frontend .MuiPickersArrowSwitcher-root .MuiPickersArrowSwitcher-spacer {
+    display: none;
+}
+
+#bookify-frontend .MuiPickersCalendarHeader-switchViewButton {
+    padding: 0;
+    width: 15px;
+    height: 15px;
+}
+
+#bookify-frontend .MuiPickersCalendarHeader-labelContainer {
+    max-height: 35px;
+    margin-right: 0;
+}
+
+#bookify-frontend .MuiDayCalendar-root {
+    padding: 0 20px;
+}
+
+#bookify-frontend .MuiDayCalendar-header,
+#bookify-frontend .MuiDayCalendar-weekContainer {
+    justify-content: space-between;
+}
+
+#bookify-frontend .MuiDayCalendar-root .MuiPickersSlideTransition-root {
+    min-height: 234px;
+}
+
+#bookify-frontend .MuiDayCalendar-weekDayLabel {
+    width: 45px;
+    height: 20px;
+    margin: 10px 5px 3px 5px;
+    font-size: 0.85rem;
+}
+
+#bookify-frontend .MuiPickersDay-root {
+    width: 45px;
+    margin: 3px 5px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+#bookify-frontend .MuiPickersDay-root.Mui-selected {
+    background-color: #036666;
+}
+
+#bookify-frontend .MuiMonthCalendar-root {
+    width: 100%;
+}
+
+#bookify-frontend .MuiPickersMonth-monthButton,
+#bookify-frontend .MuiPickersYear-yearButton {
+    border-radius: 8px;
+}
+
+#bookify-frontend .MuiPickersMonth-monthButton.Mui-selected,
+#bookify-frontend .MuiPickersYear-yearButton.Mui-selected {
+    background-color: #036666;
+}
+
+#bookify-frontend .MuiPickersMonth-root button.Mui-disabled {
+    color: rgb(0 0 0 / 31%);
+}
+
+#bookify-frontend .bookify-input-field {
+    background: #FFFFFF;
+    width: 100%;
+    height: 45px;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    padding: 0px 16px;
+    box-shadow: none;
+}
+
+#bookify-frontend .bookify-textarea-field {
+    background-color: #FFFFFF;
+    padding: 16px;
+}
+
+#bookify-frontend .MuiTelInput-TextField > div {
+    padding-left: 8px;
+}
+
+#bookify-frontend .MuiTelInput-TextField > div > div {
+    max-width: 22px;
+}
+
+#bookify-frontend .MuiTelInput-TextField > div input {
+    padding: 10px 8px 10px 0px;
+}
+
+#bookify-frontend .wpbfOutlineNone {
+    outline: none;
+}
+
+#bookify-frontend .bookify-input-label {
+    color: #036666; 
+    font-size: 14px;
+}
+
+#bookify-frontend .MuiFormControl-root input {
+    box-sizing: unset;
+    box-shadow: none;
+}
+
+#bookify-frontend .MuiTelInput-IconButton {
+    z-index: 9;
+}
+
+#bookify-frontend .base-TabsList-root button {
+    box-sizing: border-box;
+}
+
+#bookify-frontend .MuiTelInput-IconButton img {
+    border-radius: 0px;
+}
+
+#bookify-frontend .base-TabsList-root button:hover {
+    background: none;
+    color: #ffffff;
+}
+
+#bookify-frontend button:focus, #bookify-frontend input:focus {
+    outline: unset;
+}
+
+#bookify-frontend .MuiDateCalendar-root button {
+    word-wrap: normal;
+    padding: unset;
+}
+
+#bookify-frontend .MuiTelInput-TextField {
+    border: 1px solid #d9d9d9;
+}
+
+#bookify-frontend .MuiInputBase-root input {
+    z-index: 9;
+    background: #fff;
+}
+
+#bookify-frontend .MuiInputBase-root fieldset {
+    border: 0;
+    background: #fff;
+}
+
+#bookify-frontend .MuiTelInput-TextField .MuiInputAdornment-root {
+    max-width: 100%;
+}
